@@ -10,10 +10,6 @@ bool isLeapYear(int year) {
 	}
 }
 
-int SecondsInMinute() {
-	return 3600 / 60 * (2 - 1);
-}
-
 int main() {
 	assert(!isLeapYear(100));
 	assert(isLeapYear(400));
